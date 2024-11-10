@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    font-family: "DM Sans", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #2F1893;
+    background-size: contain;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-signin, .btn-signup {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #2F1893;
+    color: #fff;
+}
+
+.btn-signup{
+    border-radius: 20px;
+    border: 1.5px solid #fff;
+    width: 80px
+}
+
+.logo-img {
+    line-height:4.6;
+}
+
+.logo-btn {
+    line-height: 4.0;
+}
+html, body {
+    padding: 0;
+    margin:0;
+}
+.hero {
+    background-color: #2F1893;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left {
+    border-left: #2F1893;
+    padding: 18px;
+    text-align: left;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.hero-left h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.hero-left p {
+    color:#fff;
+    font-size: 20px;
+}
+.Learnmore-btn {
+    background: #E93A7D;
+    color: #fff;
+    border-radius: 20px;
+    cursor:pointer;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+.hero-right {
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #EBEAED;
+    margin: 80px 100px 30px;
+    width: 348px;
+    height: 470px;
+    box-sizing: border-box;
+}
+.hero-right h1 {
+    color: #1E0E62;
+}
+.email, .password {
+    width: 250px;
+    line-height: 0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #EBEAED;
+    outline: #EBEAED;
+    border-radius: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.password {
+    margin-bottom: 5px;
+}
+.terms {
+    color: #15143966;
+    font-size: 12px;
+}
+.signin-btn, .x-btn {
+    color: #fff;
+    width: 250px;
+    padding: 9px;
+    background-color: #482BE7;
+    cursor:pointer;
+    border: 0;
+    border-radius: 18px;
+    padding: 9px;
+    margin-top: 5px;
+
+}
+.x-btn {
+    background-color: #1DA1F2;
+}
+.acct {
+    color: #15143966;
+}
+.signin {
+    color: #25DAC5;
+}
+.seperator {
+    display:flex;
+    align-items: center;
+    margin: 10px;
+}
+.seperator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid;
+}
+.seperator span {
+    padding: 0 10px;
+}
+.content {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px 10px;
+    color:#1E0E62;
+    font-size: 25px;
+}
+.con-p{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 0 250px 40px;
+    color: #15143966;
+}
+.features {
+    background-color: #FFFFFF;
+}
+.features-h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #1E0E62;
+    font-size: 35px;
+}
+.features-p {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #15143966;
+    font-size: 20px;
+}
+.ready {
+    padding-left: 420px;
+    color: #1E0E62;
+    font-size: 20px;
+}
+.ready-p {
+    padding-left: 420px;
+    margin-top: -10px;
+    color: #15143966;
+    font-size: 16px;
+}
+.layout {
+    padding-left: 420px;
+    margin-top: 100px;
+    color: #1E0E62;
+    font-size: 20px;
+}
+.layout-p {
+    padding-left: 420px;
+    margin-top: -10px;
+    color: #15143966;
+    font-size: 16px;
+}
+.contol {
+    padding-left: 420px;
+    margin-top: 100px;
+    color: #1E0E62;
+    font-size: 20px;
+}
+.contol-p {
+    padding-left: 420px;
+    margin-top: -10px;
+    color: #15143966;
+    font-size: 16px;
+}
+.img-iphone {
+    padding-left: 700px;
+    margin-top: -595px;
+    width:-10px
+}
+.compatibility {
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    padding-left: 90px;
+    margin-right: 0;
+}
+.desktop {
+    color: #1E0E62;
+}
+.desktop-p {
+    color: #15143966;
+}
+.retina {
+    color: #1E0E62;
+    padding-left: 25px;
+}
+.checkmark1 {
+    margin-bottom: -42px;
+}
+.retina-p {
+    color: #15143966;
+}
+.responsive {
+    color: #1E0E62;
+    padding-left: 25px;
+}
+.checkmark2 {
+    margin-bottom: -42px;
+}
+.responsive-p {
+    color: #15143966;
+}
+.img-macbook {
+    margin-top: -520px;
+    padding-left: 625px;
+    margin-right: -800px;
+    background: 100px;
+    height: 696px;
+}
