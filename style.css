@@ -49,10 +49,11 @@ nav ul li a {
 }
 html, body {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 .hero {
     background-color: #2F1893;
+    background-size: contain;
     display: flex;
     justify-content: space-between;
 }
@@ -252,7 +253,290 @@ html, body {
 .img-macbook {
     margin-top: -520px;
     padding-left: 625px;
-    margin-right: -800px;
     background: 100px;
     height: 696px;
+}
+.commerce {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: #482BE7;
+}
+.commerce-left {
+    justify-content: left;
+}
+.commerce-left-img {
+    margin: 0 0 0 -200px;
+    width: 787px;
+    height: 550px;
+    gap: 0px;
+    opacity: 0px;
+}
+.commerce-right {
+    justify-content: right;
+    padding: 0 0 0 0;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.commerce-right-h4 {
+    color: #1E0E62;
+}
+.commerce-right-h1 {
+    color: #1E0E62;
+}
+.commerce-right-p {
+    color:#15143966;
+    margin-bottom: 60px;
+}
+.buy-btn {
+    color: #fff;
+    width: 110px;
+    height: 49px;
+    background-color: #482BE7;
+    cursor:pointer;
+    border: 0;
+    border-radius: 100px;
+}
+.price {
+    text-align: center;
+    margin-bottom: -50px;
+    margin-left: -120px;
+    color: #1E0E62;
+}
+.img-right,.img-right1, .img-right2, .img-right3 {
+    display: flex;
+    margin: 15px 5px 0 0;
+}
+.assignment9 {
+    background-color: #fff;
+    margin: 30px 0 30px 100px;
+}
+.top-nav {
+    background-color: #fff;
+    margin-left: -15px;
+}
+.overview {
+    color: #b6ace2;
+}
+.top-rnav {
+    color: #1E0E62;
+    font-weight: 500;
+    margin: -20px;
+    padding: 0 500px 0 0;
+}
+.p1 {
+    color: #15143966;
+    font-size: 15px;
+}
+.btn-purchase {
+    background-color: #fff;
+    border: 5px thin #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #1E0E62;
+    font-weight: 600;
+
+}
+.explore-btn {
+    color: #fff;
+    background-color: #482BE7;
+    border: 20px solid #482BE7;
+    border-radius: 30px;
+    width: 206px;
+    height: 60px;
+    
+}
+.left-body {
+    color: #1E0E62;
+    margin-top: 40px;
+}
+.right-body {
+    text-align: center;
+   
+}
+.right-img {
+    width: 300px;
+    height: 300px;
+    margin:  -250px -100px 0 0;
+}
+.left-bodyh1 {
+    font-size: 40px;
+}
+.menu {
+   display: none;
+}
+.lower-section {
+background-color: #2F1893;
+height: 510px;
+}
+.lower-section1 {
+    color: #FFFFFF;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.lower-section1 h3 {
+    margin-bottom: 40px;
+}
+
+.lower-section1 p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.email-suscribe {
+    margin-top: 30px;
+}
+.email-contact {
+    border: 20px thin #FFFFFF ;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 250px;
+    height: 40px;
+    width: 180px;
+    height: 35px;
+    background-color: #2F1893;
+}
+.btn-suscribe {
+    color: #FFFFFF;
+    background-color: #25DAC5;
+    border: 20px solid #25DAC5;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 60px;
+    height: 0px;
+    line-height: 0;
+    box-sizing: content-box;
+    margin-left: 5px;
+}
+.email-suscribe {
+    margin-bottom: 60px;
+}
+.privacy {
+    display: flex;
+}
+.privacy2 {
+    margin-left: 20px;
+}
+.listed-info {
+    justify-content: center;
+    line-height: 2.5;
+    display: flex;
+    margin-top: -320px;
+}
+
+.buy-now-btn {
+    border: 20px solid #E93A7D;
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    line-height: 0;
+    background-color: #E93A7D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.buy-section {
+    justify-content: right;
+    margin-top: -280px;
+    margin-right: 100px;
+    text-align: right;
+}
+.buy-section p {
+    margin-right: 38px;
+}
+
+@media screen and (max-width:620px) {
+    header, nav ul, .hero,.hero-right,.content,.con-p,.features,.compatibility,.ready,.ready-p,.layout,.layout-p,.contol,.contol-p,.img-iphone,.img-macbook,.commerce,.commerce-right,.buy-btn,.price,.assignment9,.top-nav,.top-rnav,.right-body,.listed-info,.buy-section {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .lower-section1 {
+        flex-direction: column;
+    }
+    .features,.sub-features3,.compatibility,.left-body,.buy-section,.commerce-left-img,.img-macbook {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .lower-section {
+        height: 1100px;
+        margin-top: 20px;
+    }
+    .top-nav {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    .hero-right {
+        margin-right: 0;
+        justify-content: left;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        width: 270px;
+        height: 400px
+    }
+
+    .header-nav, .logo-btn {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        line-height: 4.4;
+        color: #fff;
+        font-weight: 700;
+        margin-right: 25px;
+    }
+
+    .overall {
+        display: flex;
+        justify-content: space-between;
+        background: #2F1893;
+    }
+
+    .features,.ready,.ready-p,.layout,.layout-p,.contol,.contol-p,.img-iphone,.img-macbook,.buy-btn {
+        margin-bottom: 20px;
+    }
+   
+    .img-iphone,.img-macbook {
+        margin: 0;
+        width: 180px;
+        height: 300px;
+    }
+    .commerce-left-img {
+        width: 375px;
+        height: 375px
+    }
+    .img-macbook {
+        margin-right: -20px;
+        width: 350px;
+    }
+    .checkmark1,.checkmark2{
+        padding: 0 180px 0 0;
+    }
+    .hero-left h1,.content,.features-h2,.ready,.layout,.contol,.desktop,.left-bodyh1 {
+        font-size: 20px;
+    }
+    .hero-left p,.con-p,.features-p,.ready-p,.layout-p,.contol-p,.desktop-p {
+        font-size: 15px;
+    }
+    .Learnmore-btn {
+        border-width: 10px;
+    }
+
+    .email,.password,.signin-btn,.x-btn {
+        width: 150px;
+    }
+    .img-right,.img-right1, .img-right2, .img-right3 {
+       justify-content: space-between;
+       margin-right: 3px;
+    }
+    .right-img {
+        width: 200px;
+        height: 200px;
+        margin: 20px 0 20px 0;
+    }
 }
